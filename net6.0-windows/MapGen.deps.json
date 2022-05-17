@@ -1,0 +1,62 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "MapGen/1.0.0": {
+        "dependencies": {
+          "AccidentalNoise": "1.0.0",
+          "System.Drawing.Common": "6.0.0"
+        },
+        "runtime": {
+          "MapGen.dll": {}
+        }
+      },
+      "AccidentalNoise/1.0.0": {
+        "runtime": {
+          "lib/netstandard2.0/AccidentalNoise.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Microsoft.Win32.SystemEvents/6.0.0": {},
+      "System.Drawing.Common/6.0.0": {
+        "dependencies": {
+          "Microsoft.Win32.SystemEvents": "6.0.0"
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MapGen/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AccidentalNoise/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+m/zPY6jDcEjFFUjMfrFGOJcv/+7igQWo0BEFmXepaKRuapr1bhbsp77Ko8gJYOGyUwK2vJIZW8IRBYsyE3SHw==",
+      "path": "accidentalnoise/1.0.0",
+      "hashPath": "accidentalnoise.1.0.0.nupkg.sha512"
+    },
+    "Microsoft.Win32.SystemEvents/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hqTM5628jSsQiv+HGpiq3WKBl2c8v1KZfby2J6Pr7pEPlK9waPdgEO6b8A/+/xn/yZ9ulv8HuqK71ONy2tg67A==",
+      "path": "microsoft.win32.systemevents/6.0.0",
+      "hashPath": "microsoft.win32.systemevents.6.0.0.nupkg.sha512"
+    },
+    "System.Drawing.Common/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NfuoKUiP2nUWwKZN6twGqXioIe1zVD0RIj2t976A+czLHr2nY454RwwXs6JU9Htc6mwqL6Dn/nEL3dpVf2jOhg==",
+      "path": "system.drawing.common/6.0.0",
+      "hashPath": "system.drawing.common.6.0.0.nupkg.sha512"
+    }
+  }
+}
